@@ -17,6 +17,11 @@ footer {
 h1 {
 	font-size: 60px;
 	margin: 0px;
+	font-family: Cabin,Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-weight: normal;
 }
 
 .contact-info {
