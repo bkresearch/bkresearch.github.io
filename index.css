@@ -4,24 +4,28 @@ body {
 }
 
 footer {
-    position: fixed;
-    height: 50px;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding-left: 40%;
-    padding-top: 15px;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+	text-align: center;
+  padding-top: 15px;
 }
 
 h1 {
+	color: #121212;
 	font-size: 60px;
 	margin: 0px;
 	font-family: Cabin,Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	letter-spacing: 2px;
-	font-weight: normal;
+	letter-spacing: 0.125em;
+	cursor: auto;
+	line-height: 1em;
+	font-style: normal;
+	text-align: center;
 }
 
 .contact-info {
@@ -39,21 +43,19 @@ h1 {
 
 .page-header {
 	margin-top: 0px;
-	padding-left: 15%;
+
 }
 
 .tab-pane {
 
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-radius: 0px 0px 5px 5px;
-    padding: 10px;
-    padding-bottom: 5px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+  padding-bottom: 5px;
 }
 
-
-
 .nav-tabs {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
