@@ -1,4 +1,7 @@
+
+
 body {
+	background-color: #F6F6F9;
 	margin-bottom: -80px;
 	border-top: 5px solid black;
 }
@@ -40,6 +43,7 @@ h1 {
 	width: 800px;
 	margin-bottom: 60px;
 	font-family: Cabin,Helvetica,Arial,sans-serif;
+
 }
 
 .page-header {
@@ -50,7 +54,6 @@ h1 {
 }
 
 .tab-pane {
-
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -60,5 +63,30 @@ h1 {
 }
 
 .nav-tabs {
-  margin-bottom: 0;
+  margin-bottom: 0px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: white;  
+} 
+
+.tab-content {
+  background-color: white;
+}
+
+.about-content {
+	margin-top: 2%;
+	float: left;
+	width: 60%;
+}
+
+.logo {
+	margin-left: 520px;
+}
+
+h4 {
+	text-decoration: underline;
 }
