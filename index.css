@@ -18,13 +18,13 @@ h1 {
 	color: #121212;
 	font-size: 60px;
 	margin: 0px;
-	font-family: Cabin,Helvetica,Arial,sans-serif;
+	font-family: Roboto,Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 900;
 	letter-spacing: 0.125em;
 	cursor: auto;
 	line-height: 1em;
-	font-style: normal;
+	font-style: Ultra-Bold;
 	text-align: center;
 }
 
@@ -39,6 +39,7 @@ h1 {
 .container {
 	width: 800px;
 	margin-bottom: 60px;
+	font-family: Cabin,Helvetica,Arial,sans-serif;
 }
 
 .page-header {
